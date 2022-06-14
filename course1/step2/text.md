@@ -1,14 +1,14 @@
 ## Tags
-Um die Liste der vorhandenen Container Images etwas übersichtlicher zu gestalten kann ich das Format der Anzeige dezent ändern: `docker image ls --format '{{.Repository}}/{{.Tag}}'`. 
+Um die Liste der vorhandenen Container Images etwas übersichtlicher zu gestalten kann ich das Format der Anzeige dezent ändern: `docker image ls --format '{{.Repository}}/{{.Tag}}'`{{exec}}. 
 
 Tags sind oftmals Versionsnummern, können aber jeder halbwegs sinnige Zeichenkette sein.
 
 Der Tag `latest` hat eine besondere Bedeutung: Er zeigt laut Konvention immer auf die jeweils aktuellste Version eines Container Images. Während der Entwicklung mag das Vorteile haben, in der Produktion möchte ich jedoch exakt festlegen, welche Applikation in welcher Version in meiner Umgebung läuft, um Bugs und Inkompatibilitäten bestmöglichst ausschließen zu können. Hier sollte ich den `latest`-Tag also möglichst vermeiden.
 
 ## Image Name:Tag vs Image ID
-Wenn wir uns alle vorhandenen Images mit `docker images ls` anzeigen fällt auf, dass wir zwei alpine-Images mit unterschiedlichen Tags vorliegen haben: `latest` und `3.16.0`. Die Image ID beider Image ist aber die selbe: `6e30ab57aeee`.
+Wenn wir uns alle vorhandenen Images mit `docker image ls`{{exec}} anzeigen fällt auf, dass wir zwei alpine-Images mit unterschiedlichen Tags vorliegen haben: `latest` und `3.16.0`. Die Image ID beider Image ist aber die selbe.
 
-1) Was bedeutet das?
+## Was bedeutet das?
 
 <details>
   <summary>Antwort</summary>

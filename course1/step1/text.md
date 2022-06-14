@@ -11,7 +11,7 @@ Mit `docker image ls`{{exec}} kann ich mir eine Liste aller lokal vorhandenen Co
 
 <details>
   <summary>Antwort</summary>
-  <p><code>docker images ls</code> zeigt, dass drei Images lokal vorhanden sind: Zwei <code>alpine</code>-Images mit unterschiedlichen Tags und ein <code>hello-world</code>-Image</p>
+  <p><code>docker image ls</code> zeigt, dass drei Images lokal vorhanden sind: Zwei <code>alpine</code>-Images mit unterschiedlichen Tags und ein <code>hello-world</code>-Image</p>
 </details> 
 
 <br />

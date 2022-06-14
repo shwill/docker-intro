@@ -23,7 +23,7 @@
       {
         "title": "Tags (3)",
         "text": "step4/text.md",
-        "verify": "verify.sh"
+        "verify": "step4/verify.sh"
       }
     ],
     "finish": {

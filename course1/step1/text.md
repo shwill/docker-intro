@@ -8,6 +8,7 @@ Mit `docker image ls`{{exec}} kann ich mir eine Liste aller lokal vorhandenen Co
 `docker container ls`{{exec}} zeigt eine Liste aller derzeit laufenden Container an. Der Parameter `--all`{{}} zeigt auch Container an, die bereits beendet wurden: `docker container ls --all`{{exec}}
 
 1) Wieviele Container Images liegen derzeit im System?
+
 - [ ] A. 0
 - [ ] B. 2
 - [ ] C. 4
@@ -20,6 +21,7 @@ Mit `docker image ls`{{exec}} kann ich mir eine Liste aller lokal vorhandenen Co
 <br />
 
 2) Wieviele Container laufen derzeit?
+
 - [ ] A. 0
 - [ ] B. 4
 - [ ] C. 1

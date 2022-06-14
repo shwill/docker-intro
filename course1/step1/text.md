@@ -9,24 +9,24 @@ Mit `docker image ls`{{exec}} kann ich mir eine Liste aller lokal vorhandenen Co
 
 1) Wieviele Container Images liegen derzeit im System?
 
-- [ ] A. 0
-- [ ] B. 2
-- [ ] C. 4
-
 <details>
   <summary>Antwort</summary>
-  <p><b>B</b></p>
+  <p><code>docker images ls</code> zeigt, dass drei Images lokal vorhanden sind: Zwei <code>alpine</code>-Images mit unterschiedlichen Tags und ein <code>hello-world</code>-Image</p>
 </details> 
 
 <br />
 
 2) Wieviele Container laufen derzeit?
 
-- [ ] A. 0
-- [ ] B. 4
-- [ ] C. 1
+<details>
+  <summary>Antwort</summary>
+  <p><code>docker container ls</code> zeigt, dass derzeit kein Container läuft.</p>
+</details> 
+
+2) Wieviele Container sind auf dem System vorhanden?
 
 <details>
   <summary>Antwort</summary>
-  <p><b>C</b></p>
+  <p>Auch wenn <code>docker container ls</code> keine Ausgabe enthält besagt dass nur, dass derzeit kein Container läuft. <code>docker container ls --all</code> führt zwei bereits beendete <code>alpine:latest</code>-Container auf</p>
 </details> 
+

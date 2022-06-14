@@ -11,6 +11,19 @@
       {
         "title": "Container und Container Images",
         "text": "step1/text.md"
+      },
+      {
+        "title": "Tags",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Tags (2)",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Tags (3)",
+        "text": "step4/text.md",
+        "verify": "verify.sh"
       }
     ],
     "finish": {
